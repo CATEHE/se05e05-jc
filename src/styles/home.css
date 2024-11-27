@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+}
+
+.home {
+  display: grid;
+  place-content: center;
+  height: 100dvh;
+}
+.home__title,
+.home__text
+{
+  margin-bottom: .5em;
+}
+
+.home__input {
+  background-image: linear-gradient(to right,white,#ff0000);
+  border: 1px;
+  padding: .5em 1em;
+  border-radius: 4px 0 0 4px;
+}
+
+.home__btn{
+  background-color: #ff0000;
+  border: transparent;
+  padding: .5em 1em;
+  border-radius: 0 4px 4px 0 ;
+  color: rgb(23, 14, 1);
+  cursor: pointer;
+  transition: background-color .2s ease-in-out;
+}
+
+.home__btn:hover {
+  background-color: #f4f4f4af;
+}
+
+.home__link {
+  color: #ff0000af;
+  font-weight: 700;
+}
+
+.home__salir--btn{
+  background-color: #ff0000af;
+  color: antiquewhite;
+  border: transparent;
+  border-radius: 5px;
+  padding: .5em .5em;
+}

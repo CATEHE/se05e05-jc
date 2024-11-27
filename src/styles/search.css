@@ -1,0 +1,35 @@
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search__input {
+  background-color: #fff;
+  border: 1px #906969;
+  padding: .5em 1em;
+  border-radius: 4px 0 0 4px;
+  display: flex;
+  align-items: center;
+  gap: .25em;
+}
+
+.search__input input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.search__btn {
+  background-color: #c0c0c0af;
+  border: transparent;
+  padding: .75em 1em;
+  border-radius: 0 4px 4px 0 ;
+  color: #000000;
+  cursor: pointer;
+  transition: background-color .2s ease-in-out;
+}
+
+.search__btn:hover {
+  background-color: #792020af;
+}
+

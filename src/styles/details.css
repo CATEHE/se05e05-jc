@@ -1,0 +1,56 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+}
+
+.container_pincipal {
+  display: grid;
+  place-content: center;
+  height: 100dvh;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  position: relative;
+  height: 70vh; 
+  background-image: conic-gradient(#ffffff, #a8a892, #ffffff);
+  width: 400px;
+  border-radius: 20px;
+} 
+.img_pokemon {
+
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
+
+} 
+
+.container__number {
+  color: #333434;
+  border-radius: 4px;
+  display: flex;
+  justify-content: left;
+}
+
+.container_peso_altura{
+  display: flex;
+
+  justify-content: left;
+
+}
+
+.habilidades--item {
+  color: rgb(111, 111, 109);
+}
+
+.point {
+  color: transparent;
+}

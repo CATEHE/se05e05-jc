@@ -1,0 +1,38 @@
+.pokedex {
+  padding: 3em 0;
+}
+
+.pokedex__container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+.pokedex__header {
+  margin: 1em 0;
+}
+
+.pokedex__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.2em;
+}
+
+.pokedex__form {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+
+}
+
+.training_name {
+  color: crimson;
+  font-weight: 700;
+}
+
